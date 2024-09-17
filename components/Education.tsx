@@ -53,14 +53,14 @@ const Education = () => {
                     {item.schoolName}
                 </span>
                 ,&nbsp;
-                <span className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                <span className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
                     {item.address}
                     </span>
               </h3>
               <h2 className="text-md italic font-semibold text-gray-900 dark:text-white">
                 {item.courseName}, GPA: {item.gpa}
               </h2>
-              <ol className="text-base text-gray-700">
+              <ol className="text-base text-gray-700 dark:text-gray-300">
                 {item.description.map((desc, index) => (
                   <li key={index}>{desc}</li>
                 ))}
