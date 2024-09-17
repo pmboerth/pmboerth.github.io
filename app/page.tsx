@@ -1,5 +1,6 @@
 import Education from "@/components/Education";
 import Intro from "@/components/Intro";
+import Skills from "@/components/Skills";
 import WorkExperience from "@/components/WorkExperience";
 
 import Image from "next/image";
@@ -11,6 +12,7 @@ export default function Home() {
       <Intro />
       <WorkExperience />
       <Education />
+      <Skills />
     </div>
   );
 }
