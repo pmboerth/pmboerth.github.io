@@ -1,3 +1,4 @@
+import Education from "@/components/Education";
 import Intro from "@/components/Intro";
 import WorkExperience from "@/components/WorkExperience";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start"></main>
       <Intro />
       <WorkExperience />
+      <Education />
     </div>
   );
 }

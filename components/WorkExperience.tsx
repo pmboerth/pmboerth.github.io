@@ -30,7 +30,7 @@ const workExperienceData: WorkExperienceItem[] = [
       "Successfully managed project schedules and budgets through weekly look ahead schedules and indicated outcome reports, delivering all projects within their timeline and keeping costs under budget.",
       "Conducted weekly site visits and project meetings to monitor progress, review quality, and address project issues.",
     ],
-  },
+  }
 ];
 
 const WorkExperience = () => {
