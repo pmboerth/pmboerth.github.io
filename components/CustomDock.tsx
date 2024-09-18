@@ -107,7 +107,7 @@ const DATA = {
 };
 
 export function CustomDock({
-  orientation,
+  orientation
 }: {
   orientation: "vertical" | "horizontal";
 }) {
@@ -141,7 +141,7 @@ export function CustomDock({
         <TooltipProvider>
           <Dock
             direction="middle"
-            orientation={isMobile ? "horizontal" : "vertical"}
+            orientation={orientation || (isMobile ? "horizontal" : "vertical")}
           >
             {DATA.navbar.map((item) => (
               <DockIcon key={item.label}>
