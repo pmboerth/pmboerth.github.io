@@ -7,7 +7,6 @@ import {
   HomeIcon,
   MailIcon,
   Moon,
-  PencilIcon,
   Sun,
 } from "lucide-react";
 
@@ -20,7 +19,6 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Dock, DockIcon } from "@/components/magicui/dock";
-import { div } from "framer-motion/client";
 import { useTheme } from "next-themes";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;

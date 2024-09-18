@@ -4,9 +4,7 @@ import Education from "@/components/Education";
 import Intro from "@/components/Intro";
 import Skills from "@/components/Skills";
 import WorkExperience from "@/components/WorkExperience";
-import { ThemeProvider } from "next-themes";
 
-import Image from "next/image";
 
 export default function Home() {
   return (

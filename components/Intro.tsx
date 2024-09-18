@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <div className="flex gap-4 flex-col-reverse sm:flex-row justify-center items-center">
       <div className="flex flex-col gap-4 md:w-9/12 sm:w-full">
-        <h1 className="text-4xl font-bold">Hi! I'm Peter</h1>
+        <h1 className="text-4xl font-bold">Hi! I&apos;m Peter</h1>
         <p className="text-base text-gray-700 dark:text-gray-300">
           I am a Computer Science student at Northeastern University seeking
           opportunities to further develop my skills as a software engineer. I
