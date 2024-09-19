@@ -20,7 +20,7 @@ jobs:
       - name: build
         run: npm run build
       - name: create nojekyll
-        run: touch build/.nojekyll
+        run: touch out/.nojekyll
       - name: upload artifacts
         uses: actions/upload-pages-artifact@v3
         with:
