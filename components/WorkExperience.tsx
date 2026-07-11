@@ -8,29 +8,29 @@ interface WorkExperienceItem {
 
 const workExperienceData: WorkExperienceItem[] = [
   {
-    startDate: "July 2023",
-    endDate: "December 2023",
-    companyName: "Demand Management Institute",
-    jobTitle: "Energy Engineer",
-    description: [
-      "Accurately quantified and validated energy savings analyses in HVAC, Refrigeration, and Industrial Processes sectors by employing bin models, 8,760 models, and eQuest models.",
-      "Proficiently conducted energy audits and data collection, analyzing energy consumption patterns and building systems to create accurate and comprehensive energy savings analysis reports.",
-      "Identified opportunities for increased energy efficiency and energy savings for local utility companies through comprehensive energy audits and on-site metering.",
-      "Verified energy efficient equipment installation and operation through post-inspections and commissioning.",
-    ],
-  },
-  {
-    startDate: "July 2022",
-    endDate: "December 2022",
-    companyName: "DC Beane and Associates Construction Company",
-    jobTitle: "Project Manager",
-    description: [
-      "Helped manage four muti-million dollar construction projects in the life science industry including a biophysics laboratory, manufacturing facility, R&D facility, and chemistry laboratory.",
-      "Led cross-functional teams on all projects ensuring excellent communication with architects, engineers, subcontractors, and clients developing strong leadership and managerial skills.",
-      "Successfully managed project schedules and budgets through weekly look ahead schedules and indicated outcome reports, delivering all projects within their timeline and keeping costs under budget.",
-      "Conducted weekly site visits and project meetings to monitor progress, review quality, and address project issues.",
-    ],
-  }
+  startDate: "September 2025",
+  endDate: "Present",
+  companyName: "Tyler Technologies",
+  jobTitle: "Software Engineer",
+  description: [
+    "Delivered the highest number of engineering work items (41) on a team of 14 software engineers in 2026, implementing new features, production fixes, and performance improvements for Tyler's enterprise EERP Tax platform.",
+    "Designed and implemented backend functionality in Genero 4GL for enterprise property tax software used by local governments, developing customer-specific features across billing, assessment, and tax administration modules.",
+    "Optimized SQL queries processing over 300,000+ records by leveraging set-based operations and partitioned transaction processing, reducing database overhead by up to 30% while improving scalability.",
+    "Served as the primary developer for a Tax Increment Financing (TIF) application supporting a high-priority client, implementing tax adjustment, reporting, and financial processing functionality.",
+    "Presented feature demonstrations to government clients and authored technical specifications for customer-requested enhancements.",
+  ],
+},
+{
+  startDate: "January 2025",
+  endDate: "May 2025",
+  companyName: "Khoury College of Computer Science",
+  jobTitle: "Teaching Assistant",
+  description: [
+    "Held weekly office hours to support students with programming concepts, coursework, and debugging strategies.",
+    "Evaluated homework assignments and examinations, providing detailed feedback to reinforce student understanding and learning outcomes.",
+    "Guided students through challenging technical concepts in a collaborative and supportive learning environment.",
+  ],
+},
 ];
 
 const WorkExperience = () => {

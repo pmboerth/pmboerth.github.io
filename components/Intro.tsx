@@ -8,9 +8,9 @@ const Intro = () => {
       <div className="flex flex-col gap-4 md:w-9/12 sm:w-full">
         <h1 className="text-4xl font-bold">Hi! I&apos;m Peter</h1>
         <p className="text-base text-gray-700 dark:text-gray-300">
-          I am a Computer Science student at Northeastern University seeking
-          opportunities to further develop my skills as a software engineer. I
-          would love to connect to discuss potential projects or collaborations.
+          I recently graduated from Northeastern University with a B.S. in Computer Science and Civil Engineering 
+          and currently work as a Software Engineer at Tyler Technologies. I enjoy connecting with professionals 
+          in the tech industry to exchange ideas, learn from others, and explore new opportunities.
         </p>
       </div>
       <div className="md:w-3/12 sm:w-full">

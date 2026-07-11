@@ -141,8 +141,7 @@ export function CustomDock({
         <TooltipProvider>
           <Dock
             direction="middle"
-            orientation={orientation || (isMobile ? "horizontal" : "vertical")}
-          >
+            orientation={orientation || (isMobile ? "horizontal" : "vertical")}          >
             {DATA.navbar.map((item) => (
               <DockIcon key={item.label}>
                 <Tooltip>
@@ -188,7 +187,7 @@ export function CustomDock({
             <DockIcon>
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <div className="size-12 ronded-full flex items-center justify-center">
+                  <div className={cn(buttonVariants({ variant: "ghost", size: "icon" }), "size-12 rounded-full")}>
                     {resolvedTheme === "light" ? (
                       <Sun
                         className="size-4"

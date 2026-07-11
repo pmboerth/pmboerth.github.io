@@ -17,7 +17,7 @@ const educationData: EducationItem[] = [
         gpa: "3.9",
         address: "Boston, MA",
         description: [
-            "Honors & Activities: Club Ultimate Frisbee (A-Team Captain), Chi Epsilon Civil Engineering Honors Society (Treasurer), ASCE, Academic Scholarship, Resilience Award, Deans List",
+            "Honors & Activities: Summa Cum Laude, Club Ultimate Frisbee (A-Team Captain), Chi Epsilon Civil Engineering Honors Society (Treasurer), ASCE, Academic Scholarship, Resilience Award, Deans List",
             "Relevant Courses: Object Oriented Design, Algorithms and Data Structures, Database Design, Fundamentals of Data Science, Fundamentals of Computer Science I and II, Discrete Structures, Energy Systems, Thermodynamics"
         ]
     },
